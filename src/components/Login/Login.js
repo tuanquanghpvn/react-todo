@@ -7,8 +7,8 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Login.css';
 
 class Login extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       username: '',
       password: '',
