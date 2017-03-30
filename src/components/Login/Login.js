@@ -16,6 +16,7 @@ class Login extends React.Component {
   }
 
   onChangeUsername = (e) => {
+    console.log(e.target.value);
     this.setState({ username: e.target.value });
   };
 

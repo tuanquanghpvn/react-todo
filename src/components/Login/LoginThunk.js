@@ -15,3 +15,4 @@ export const loginThunk = ({ username, password }) => (dispatch, getState, { his
     dispatch(loginError({ error }));
   });
 };
+
